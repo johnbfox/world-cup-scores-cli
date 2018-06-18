@@ -1,0 +1,22 @@
+{
+  "name": "wc-scores-cli",
+  "version": "1.0.0",
+  "description": "Get world cup scores from the command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "World",
+    "Cup",
+    "Soccer",
+    "Football",
+    "Scores"
+  ],
+  "author": "John Fox",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.22.2",
+    "request": "^2.87.0"
+  }
+}
