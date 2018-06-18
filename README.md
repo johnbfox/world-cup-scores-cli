@@ -30,4 +30,4 @@ TUN 0 - ENG 0  :: 2:00 PM
 ```
 
 *** Credits to estiens for the killer api
-(https://github.com/estiens/world_cup_json)[https://github.com/estiens/world_cup_json]
+https://github.com/estiens/world_cup_json
