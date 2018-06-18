@@ -38,14 +38,14 @@ function timeMap(status, time){
 }
 
 function getGoals(match){
-  const homeGoals = match.home_team_events.filter( event => event.type_of_event === 'goal')
+  const homeGoals = match.home_team_events.filter( event => event.type_of_event.includes('goal'))
                          .map(event => { return {
                            time: event.time,
                            team: match.home_team.code,
                            player: event.player
                          } } )
 
-  const awayGoals = match.away_team_events.filter(event => event.type_of_event === 'goal')
+  const awayGoals = match.away_team_events.filter(event => event.type_of_event.includes('goal'))
                          .map(event => { return {
                            time: event.time,
                            team: match.away_team.code,
