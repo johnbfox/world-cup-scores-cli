@@ -1,14 +1,17 @@
 {
   "name": "wc-scores-cli",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Get world cup scores from the command line",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/johnbfox/world-cup-scores-cli.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnbfox/world-cup-scores-cli.git"
+  },
+  "bin": {
+    "wc-scores": "index.js"
   },
   "keywords": [
     "World",

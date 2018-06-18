@@ -3,10 +3,10 @@ Check the day's world cup scores without leaving the terminal!
 
 ## Installing
 ```sh
-npm install world-cup-scores-cli
+npm install wc-scores-cli
 ```
 
 ## Running
 ```sh
-world-cup-scores
+wc-scores
 ```
