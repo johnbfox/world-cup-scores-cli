@@ -12,19 +12,33 @@ wc-scores
 ```
 
 ```sh
-2018 World Cup Matches - Monday Jun 18th
+--------------------------------------
+
+COL 1 - JPN 2 (FT) :: 8:00 AM
+
+GOALS:
+ 6' - JPN : Shinji KAGAWA (PEN)
+ 39' - COL : Juan QUINTERO
+ 73' - JPN : Yuya OSAKO
 
 --------------------------------------
 
-SWE 0 - KOR 0 (half-time) :: 8:00 AM
+POL 1 - SEN 2 (FT) :: 11:00 AM
+
+GOALS:
+ 37' - POL : Thiago CIONEK (OG)
+ 60' - SEN : Mbaye NIANG
+ 86' - POL : Grzegorz KRYCHOWIAK
 
 --------------------------------------
 
-BEL 0 - PAN 0  :: 11:00 AM
+RUS 3 - EGY 1 (FT) :: 2:00 PM
 
---------------------------------------
-
-TUN 0 - ENG 0  :: 2:00 PM
+GOALS:
+ 47' - EGY : AHMED FATHI (OG)
+ 59' - RUS : Denis CHERYSHEV
+ 62' - RUS : Artem DZYUBA
+ 73' - EGY : MOHAMED SALAH (PEN)
 
 --------------------------------------
 ```
