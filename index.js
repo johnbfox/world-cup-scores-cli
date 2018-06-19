@@ -19,7 +19,13 @@ request(url, (err, res, body)  => {
       if(goals.length > 0){
         console.log(' ')
         console.log('GOALS:')
-        goals.map(goal => console.log(' ', goal.time, '-', goal.team, ':', goal.player))
+        goals.map(goal => {
+          let goalString = ` ${goal.time} - ${goal.team} : ${goal.player}`;
+          if (goal.penalty === true){
+            goalString = goalString + ' (PEN)';
+          }
+          console.log(goalString)
+        })
       }
 
       console.log('')
@@ -42,7 +48,8 @@ function getGoals(match){
                          .map(event => { return {
                            time: event.time,
                            team: match.home_team.code,
-                           player: event.player
+                           player: event.player,
+                           penalty: (event.type_of_event === 'goal-penalty')
                          } } )
 
   const awayGoals = match.away_team_events.filter(event => event.type_of_event.includes('goal'))
@@ -50,6 +57,7 @@ function getGoals(match){
                            time: event.time,
                            team: match.away_team.code,
                            player: event.player,
+                           penalty: (event.type_of_event === 'goal-penalty')
                           } } )
 
   return homeGoals.concat(awayGoals).sort( (a, b) => {
